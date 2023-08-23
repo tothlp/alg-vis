@@ -7,4 +7,6 @@ See the [web page](http://people.ksp.sk/~kuko/gnarley-trees/).
 Development
 -----------
 * in eclipse, go to preferences, java, code style, formatter, and use the algvis-format.xml
-* in intellij idea, install the external eclipse formatter plugin and again, use the algvis-format
+* in intellij idea, you can import with: 
+  * Install the Eclipse Interoperability plugin
+  * Go to: Settings / Editor / Code Style / Java / 'Gear icon' / Import Scheme / Eclipse XML Profile 
