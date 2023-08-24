@@ -1,5 +1,5 @@
 plugins {
-    java
+    `java-library`
 }
 
 repositories {
@@ -15,19 +15,3 @@ tasks.withType<Jar> {
     }
 }
 
-sourceSets {
-    main {
-        java {
-            setSrcDirs(listOf("src/algvis"))
-        }
-        resources {
-            setSrcDirs(listOf("src"))
-        }
-    }
-}
-
-java {
-    toolchain {
-        languageVersion.set(JavaLanguageVersion.of(8))
-    }
-}

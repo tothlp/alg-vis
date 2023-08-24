@@ -196,9 +196,9 @@ abstract public class Buttons extends JPanel
     void initZoom() {
         // zoomLabel = new ILabel("zoomio");
         // zoomIn = createButton("+", "../images/zoom_in.gif");
-        zoomIn = createButton("+", "/algvis/images/zoom_in.gif");
-        zoomOut = createButton("-", "/algvis/images/zoom_out.gif");
-        resetView = createButton("R", "/algvis/images/reset.gif");
+        zoomIn = createButton("+", "/images/zoom_in.gif");
+        zoomOut = createButton("-", "/images/zoom_out.gif");
+        resetView = createButton("R", "/images/reset.gif");
         zoomIn.addActionListener(this);
         zoomOut.addActionListener(this);
         resetView.addActionListener(this);
